@@ -113,3 +113,9 @@ exports
 build
 .strapi-updater.json
 .strapi
+# Additional ignores
+.tmp/
+.cache/
+build/
+dist/
+.strapi/

@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_banners",
+  "info": {
+    "singularName": "homepage-banner",
+    "pluralName": "homepage-banners",
+    "displayName": "Homepage Banner",
+    "description": "Hero banners for homepage carousel - supports pure image, CSS background, or hybrid with conditional text/buttons"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "bannerMode": {
+      "type": "enumeration",
+      "enum": ["pure-image", "css-background", "hybrid"],
+      "default": "hybrid",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "showText": {
+      "type": "boolean",
+      "default": false
+    },
+    "showButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaText": {
+      "type": "string",
+      "required": false
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos", "files"]
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos", "files"]
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "from-[#1a1a2e]/40 to-[#16213e]/40"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "text-white"
+    },
+    "subtitleColor": {
+      "type": "string",
+      "default": "text-[#D4AF37]"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["brand", "occasion", "promotion", "product"],
+      "default": "brand"
+    },
+    "hasOverlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "overlayOpacity": {
+      "type": "integer",
+      "default": 40,
+      "min": 0,
+      "max": 100
+    },
+    "duration": {
+      "type": "integer",
+      "default": 5000,
+      "min": 1000
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
+

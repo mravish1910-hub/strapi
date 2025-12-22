@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trust_badges",
+  "info": {
+    "singularName": "trust-badge",
+    "pluralName": "trust-badges",
+    "displayName": "Trust Badge",
+    "description": "Trust badges for footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": ["shield", "smile", "credit-card", "star", "truck", "package"],
+      "default": "star"
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
+
