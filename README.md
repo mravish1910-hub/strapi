@@ -33,5 +33,6 @@ When developing locally this Strapi template will connect to the Postgres server
 
 ## 📝 Notes
 
+
 - After your app is deployed, visit the `/admin` endpoint to create your admin user.
 - If you want to use npm with this project make sure you delete the `yarn.lock` file after you have ran `npm install`
