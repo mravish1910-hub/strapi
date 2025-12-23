@@ -2,9 +2,9 @@
  * site-setting router
  */
 
-import { factories } from '@strapi/strapi';
+const { factories } = require('@strapi/strapi');
 
-export default factories.createCoreRouter('api::site-setting.site-setting', {
+module.exports = factories.createCoreRouter('api::site-setting.site-setting', {
   config: {
     find: {
       auth: false,

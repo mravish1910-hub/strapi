@@ -1,0 +1,8 @@
+/**
+ * site-setting controller
+ */
+
+const { factories } = require('@strapi/strapi');
+
+module.exports = factories.createCoreController('api::site-setting.site-setting');
+
