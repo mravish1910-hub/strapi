@@ -14,6 +14,7 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 - Click the Railway button 👆
 - Add the environment variables
 - Media will automatically be persisted between deploys!
+- 
 
 ## 💻 Developing locally
 
