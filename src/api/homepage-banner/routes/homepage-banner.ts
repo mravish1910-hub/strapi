@@ -4,5 +4,18 @@
 
 import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::homepage-banner.homepage-banner');
+export default factories.createCoreRouter('api::homepage-banner.homepage-banner', {
+  config: {
+    find: {
+      auth: false,
+      policies: [],
+      middlewares: [],
+    },
+    findOne: {
+      auth: false,
+      policies: [],
+      middlewares: [],
+    },
+  },
+});
 
