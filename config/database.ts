@@ -1,7 +1,8 @@
 import path from 'path';
 
 export default ({ env }) => {
-  const client = env('DATABASE_CLIENT', 'sqlite');
+  // Use postgres in production (Railway), sqlite in development
+  const client = env('DATABASE_CLIENT', env('DATABASE_URL') ? 'postgres' : 'sqlite');
 
   const connections = {
     mysql: {
