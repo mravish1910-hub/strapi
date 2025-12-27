@@ -53,13 +53,13 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "videos", "files"]
+      "allowedTypes": ["images", "videos"]
     },
     "mobileImage": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "videos", "files"]
+      "allowedTypes": ["images", "videos"]
     },
     "backgroundColor": {
       "type": "string",
