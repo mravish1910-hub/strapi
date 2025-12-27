@@ -1,0 +1,7 @@
+# Force Railway redeploy to pick up database changes
+# Database has been fixed:
+# - Removed duplicate announcement_bar entries
+# - Set locale = 'en' for all content
+# - Fixed homepage_banners locales
+
+# This comment triggers a new deployment
