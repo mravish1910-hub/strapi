@@ -49,6 +49,10 @@
       "type": "string",
       "required": false
     },
+    "imageLink": {
+      "type": "string",
+      "required": false
+    },
     "image": {
       "type": "media",
       "multiple": false,
