@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trust_items",
+  "info": {
+    "singularName": "trust-item",
+    "pluralName": "trust-items",
+    "displayName": "Trust Strip Item",
+    "description": "Items shown in the scrolling trust strip below the hero"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "subtitle": { "type": "string" },
+    "iconName": {
+      "type": "enumeration",
+      "enum": ["delivery", "quality", "packaging", "payment", "returns", "gift", "star", "shield"],
+      "default": "star"
+    },
+    "order": { "type": "integer", "required": true, "default": 0 },
+    "active": { "type": "boolean", "default": true }
+  }
+}

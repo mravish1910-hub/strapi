@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_config",
+  "info": {
+    "singularName": "homepage-config",
+    "pluralName": "homepage-configs",
+    "displayName": "Homepage Config",
+    "description": "Controls text, CTAs and section titles across the homepage"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "heroHeadline": { "type": "string", "default": "Gifts That Tell Your Story" },
+    "heroSubtext": { "type": "text", "default": "Thoughtfully curated hampers for every occasion — birthdays, weddings, corporate, and beyond." },
+    "heroCtaLabel": { "type": "string", "default": "Shop Summer Collection" },
+    "heroCtaHref": { "type": "string", "default": "/store" },
+    "occasionSectionTitle": { "type": "string", "default": "Shop By Occasion" },
+    "occasionSectionSubtitle": { "type": "string", "default": "Find the perfect gift for every moment" },
+    "bestsellersTitle": { "type": "string", "default": "Our Bestsellers" },
+    "featuredTitle": { "type": "string", "default": "Summer Hosting Picks" },
+    "corporateTitle": { "type": "string", "default": "Corporate & Bulk Gifting" },
+    "corporateSubtitle": { "type": "string", "default": "Premium gifting solutions for teams, clients and celebrations." },
+    "corporateCtaLabel": { "type": "string", "default": "Request Bulk Quote" },
+    "corporateCtaHref": { "type": "string", "default": "/corporate-gifting" }
+  }
+}

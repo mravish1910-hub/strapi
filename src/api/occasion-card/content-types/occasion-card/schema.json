@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "occasion_cards",
+  "info": {
+    "singularName": "occasion-card",
+    "pluralName": "occasion-cards",
+    "displayName": "Occasion Card",
+    "description": "Shop By Occasion cards shown on the homepage"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "blurb": { "type": "string" },
+    "emoji": { "type": "string" },
+    "href": { "type": "string", "required": true },
+    "image": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["images"] },
+    "order": { "type": "integer", "required": true, "default": 0 },
+    "active": { "type": "boolean", "default": true }
+  }
+}

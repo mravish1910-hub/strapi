@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "announcement_messages",
+  "info": {
+    "singularName": "announcement-message",
+    "pluralName": "announcement-messages",
+    "displayName": "Announcement Message",
+    "description": "Rotating messages shown in the announcement bar"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "link": { "type": "string" },
+    "linkLabel": { "type": "string" },
+    "emoji": { "type": "string" },
+    "order": { "type": "integer", "required": true, "default": 0 },
+    "active": { "type": "boolean", "default": true }
+  }
+}
