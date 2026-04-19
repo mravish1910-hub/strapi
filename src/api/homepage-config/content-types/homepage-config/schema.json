@@ -21,6 +21,7 @@
     "corporateTitle": { "type": "string", "default": "Corporate & Bulk Gifting" },
     "corporateSubtitle": { "type": "string", "default": "Premium gifting solutions for teams, clients and celebrations." },
     "corporateCtaLabel": { "type": "string", "default": "Request Bulk Quote" },
-    "corporateCtaHref": { "type": "string", "default": "/corporate-gifting" }
+    "corporateCtaHref": { "type": "string", "default": "/corporate-gifting" },
+    "categoryTagline": { "type": "string", "default": "Find the Perfect Gift in Seconds ✦" }
   }
 }
