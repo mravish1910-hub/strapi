@@ -104,6 +104,16 @@
     "active": {
       "type": "boolean",
       "default": true
+    },
+    "cardBgColor": {
+      "type": "string",
+      "default": "#f5ede3",
+      "description": "Hex background colour for the card carousel (e.g. #fce8ef). Leave blank to use default."
+    },
+    "darkText": {
+      "type": "boolean",
+      "default": true,
+      "description": "True = dark text on light card background. False = white text on dark background."
     }
   }
 }
