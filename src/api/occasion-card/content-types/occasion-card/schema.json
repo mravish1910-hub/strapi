@@ -16,6 +16,7 @@
     "href": { "type": "string", "required": true },
     "image": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["images"] },
     "images": { "type": "media", "multiple": true, "required": false, "allowedTypes": ["images"] },
+    "mobileImages": { "type": "media", "multiple": true, "required": false, "allowedTypes": ["images"], "description": "Portrait/square images optimised for mobile. Falls back to images[] if empty." },
     "imageRotateMs": { "type": "integer", "default": 3000, "description": "Auto-rotate interval in ms (0 = disabled)" },
     "order": { "type": "integer", "required": true, "default": 0 },
     "active": { "type": "boolean", "default": true }
