@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_category_cards",
+  "info": {
+    "singularName": "homepage-category-card",
+    "pluralName": "homepage-category-cards",
+    "displayName": "Homepage Category Card",
+    "description": "Image gallery overrides for Shop by Category cards — keyed by Medusa category handle"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": {},
+  "attributes": {
+    "handle": { "type": "string", "required": true, "description": "Medusa category handle (e.g. 'candles', 'mugs')" },
+    "images": { "type": "media", "multiple": true, "required": false, "allowedTypes": ["images"] },
+    "imageRotateMs": { "type": "integer", "default": 3000, "description": "Auto-rotate interval in ms (0 = disabled)" },
+    "active": { "type": "boolean", "default": true }
+  }
+}
