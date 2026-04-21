@@ -24,6 +24,12 @@
     "corporateSubtitle": { "type": "string", "default": "Premium gifting solutions for teams, clients and celebrations." },
     "corporateCtaLabel": { "type": "string", "default": "Request Bulk Quote" },
     "corporateCtaHref": { "type": "string", "default": "/corporate-gifting" },
-    "categoryTagline": { "type": "string", "default": "Find the Perfect Gift in Seconds ✦" }
+    "categoryTagline": { "type": "string", "default": "Find the Perfect Gift in Seconds ✦" },
+    "corporateLeftImage": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["images"] },
+    "corporateRightImage": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["images"] },
+    "corporateBadge1": { "type": "string", "default": "Custom Branding" },
+    "corporateBadge2": { "type": "string", "default": "Bulk Orders" },
+    "corporateBadge3": { "type": "string", "default": "On-time Delivery" },
+    "corporateBadge4": { "type": "string", "default": "Curated Packaging" }
   }
 }
