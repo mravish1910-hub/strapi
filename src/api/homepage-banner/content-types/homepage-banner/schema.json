@@ -119,6 +119,12 @@
       "type": "boolean",
       "default": false,
       "description": "When true, this banner takes 100% viewport width on large screens instead of 50%."
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": ["center", "top", "bottom", "left", "right", "left-top", "right-top", "left-bottom", "right-bottom"],
+      "default": "center",
+      "description": "Controls which part of the image is shown when it's cropped to fit the card. Use 'left-top' for images with baked-in text on the left, 'center' for product scenes."
     }
   }
 }
