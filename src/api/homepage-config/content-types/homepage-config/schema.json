@@ -30,6 +30,30 @@
     "corporateBadge1": { "type": "string", "default": "Custom Branding" },
     "corporateBadge2": { "type": "string", "default": "Bulk Orders" },
     "corporateBadge3": { "type": "string", "default": "On-time Delivery" },
-    "corporateBadge4": { "type": "string", "default": "Curated Packaging" }
+    "corporateBadge4": { "type": "string", "default": "Curated Packaging" },
+    "occasionHeadingAlign": {
+      "type": "enumeration",
+      "enum": ["center", "left"],
+      "default": "center",
+      "description": "Heading alignment for Shop by Occasion section. 'center' for full-width sections, 'left' for narrower layouts."
+    },
+    "categoryHeadingAlign": {
+      "type": "enumeration",
+      "enum": ["center", "left"],
+      "default": "center",
+      "description": "Heading alignment for Shop by Category section."
+    },
+    "bestsellersHeadingAlign": {
+      "type": "enumeration",
+      "enum": ["center", "left"],
+      "default": "center",
+      "description": "Heading alignment for Bestsellers section."
+    },
+    "featuredHeadingAlign": {
+      "type": "enumeration",
+      "enum": ["center", "left"],
+      "default": "center",
+      "description": "Heading alignment for Summer/Featured section."
+    }
   }
 }
