@@ -114,6 +114,11 @@
       "type": "boolean",
       "default": true,
       "description": "True = dark text on light card background. False = white text on dark background."
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "default": false,
+      "description": "When true, this banner takes 100% viewport width on large screens instead of 50%."
     }
   }
 }
